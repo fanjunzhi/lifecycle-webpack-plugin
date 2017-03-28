@@ -1,0 +1,27 @@
+{
+  "name": "lifecycle-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack life cycle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanjunzhi/lifecycle-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "lifecycle"
+  ],
+  "author": "fanjunzhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanjunzhi/lifecycle-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/fanjunzhi/lifecycle-webpack-plugin#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0"
+  }
+}
