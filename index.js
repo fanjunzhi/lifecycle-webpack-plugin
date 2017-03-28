@@ -1,4 +1,4 @@
-import LifeCycleWebpackPlugin from './lib/LifeCycleWebpackPlugin';
+var LifeCycleWebpackPlugin = require('./lib/LifeCycleWebpackPlugin');
 
 module.exports = {
     LifeCycleWebpackPlugin,

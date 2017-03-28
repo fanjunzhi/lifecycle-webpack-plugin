@@ -1,3 +1,5 @@
-export const isFunction = (arg) => {
+const isFunction = (arg) => {
     return Object.prototype.toString.call(arg) === '[object Function]';
 };
+
+module.exports = isFunction;
