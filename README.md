@@ -5,6 +5,9 @@ webpack插件，在webpack执行构建各个过程执行完成后的回调。可
 
 [![Github Releases](https://img.shields.io/github/downloads/lifecycle-webpack-plugin/lifecycle-webpack-plugin/latest/total.svg)](https://www.npmjs.com/package/lifecycle-webpack-plugin)
 [![npm](https://img.shields.io/npm/v/lifecycle-webpack-plugin.svg)](https://www.npmjs.com/package/lifecycle-webpack-plugin)
+[![GitHub issues](https://img.shields.io/github/issues/fanjunzhi/lifecycle-webpack-plugin.svg)](https://github.com/fanjunzhi/lifecycle-webpack-plugin/issues)
+[![GitHub forks](https://img.shields.io/github/forks/fanjunzhi/lifecycle-webpack-plugin.svg)](https://github.com/fanjunzhi/lifecycle-webpack-plugin/network)
+[![GitHub stars](https://img.shields.io/github/stars/fanjunzhi/lifecycle-webpack-plugin.svg)](https://github.com/fanjunzhi/lifecycle-webpack-plugin/stargazers)
 
 ## 执行效果
 
