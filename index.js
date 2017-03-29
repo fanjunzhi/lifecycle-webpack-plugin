@@ -1,5 +1,3 @@
-var LifeCycleWebpackPlugin = require('./lib/LifeCycleWebpackPlugin');
+import { LifeCycleWebpackPlugin as Plugin } from './src/LifeCycleWebpackPlugin';
 
-module.exports = {
-    LifeCycleWebpackPlugin,
-};
+export const LifeCycleWebpackPlugin = Plugin;

@@ -21,7 +21,8 @@ npm install --save-dev lifecycle-webpack-plugin
 在`webpack.config.js`中:
 
 ```$xslt
-var LifeCycleWebpackPlugin = require('lifecycle-webpack-plugin').LifeCycleWebpackPlugin;
+
+import { LifeCycleWebpackPlugin } from 'lifecycle-webpack-plugin';
 
 plugins: [new LifeCycleWebpackPlugin({
     done: (compiler) => {

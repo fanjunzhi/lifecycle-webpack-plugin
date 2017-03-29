@@ -1,5 +1,5 @@
 // api对应的是驼峰写法
-const avaliableMethod = [
+export const avaliableMethod = [
     'make',
     'compile',
     'emit',
@@ -7,5 +7,3 @@ const avaliableMethod = [
     'done',
     'this-compilation',
 ];
-
-module.exports = avaliableMethod;

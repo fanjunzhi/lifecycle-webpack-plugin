@@ -1,10 +1,11 @@
 {
   "name": "lifecycle-webpack-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "webpack life cycle",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-publish": "webpack --config webpack.config.babel.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,14 @@
   },
   "homepage": "https://github.com/fanjunzhi/lifecycle-webpack-plugin#readme",
   "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-runtime": "6.23.0",
     "babel-preset-es2015": "6.24.0",
-    "babel-preset-stage-0": "6.22.0"
+    "babel-preset-stage-0": "6.22.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "webpack": "2.2.1",
+    "webpack-uglify-parallel": "0.1.3"
   }
 }

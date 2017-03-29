@@ -1,8 +1,8 @@
-var avaliableMethod = require('./constants');
+import { avaliableMethod } from './constants';
 // import { isFunction } from '../utils/isFunction';
-var dealCamelToLine = require('../utils/dealCamelToLine');
+import { dealCamelToLine } from '../utils/dealCamelToLine';
 
-class LifeCycleWebpackPlugin {
+export class LifeCycleWebpackPlugin {
     constructor(opts) {
         // for (const name in opts) {
         //     if (!isFunction(opts[name])) {
@@ -23,5 +23,3 @@ class LifeCycleWebpackPlugin {
         }
     }
 }
-
-module.exports = LifeCycleWebpackPlugin;
