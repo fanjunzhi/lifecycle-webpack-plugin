@@ -5,4 +5,4 @@ webpack.config.babel.js
 src
 utils
 getBabelCommonConfig.js
-index.js
+/index.js

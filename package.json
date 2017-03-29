@@ -1,11 +1,12 @@
 {
   "name": "lifecycle-webpack-plugin",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "description": "webpack life cycle",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pre-publish": "webpack --config webpack.config.babel.js"
+    "pre-publish": "webpack --config webpack.config.babel.js",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
