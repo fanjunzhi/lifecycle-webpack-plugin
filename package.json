@@ -1,6 +1,6 @@
 {
   "name": "lifecycle-webpack-plugin",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "webpack life cycle",
   "main": "lib/index.js",
   "scripts": {
